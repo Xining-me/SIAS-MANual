@@ -7,9 +7,9 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
 }
-/* 调整左上角图徽大小 */
-.md-header__logo img {
-  width: 60px !important;  /* 原尺寸小，调大数值（如 60px），!important 强制覆盖主题样式 */
-  height: auto !important; /* 保持宽高比，避免变形 */
-  margin-top: 4px;         /* 可选：微调垂直位置，让布局更美观 */
+/* 直接通过图片路径定位校徽并调整大小 */
+img[src$="校徽_白.png"] {
+  width: 80px !important;  /* 调整为你需要的宽度 */
+  height: auto !important; /* 保持宽高比，防止变形 */
+  margin: 5px 0; /* 可选：调整上下边距，优化布局 */
 }
