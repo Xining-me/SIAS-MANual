@@ -7,3 +7,9 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
 }
+/* 调整左上角图徽大小 */
+.md-header__logo img {
+  width: 60px !important;  /* 原尺寸小，调大数值（如 60px），!important 强制覆盖主题样式 */
+  height: auto !important; /* 保持宽高比，避免变形 */
+  margin-top: 4px;         /* 可选：微调垂直位置，让布局更美观 */
+}
