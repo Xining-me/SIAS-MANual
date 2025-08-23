@@ -47,7 +47,6 @@ jobs:
           git commit -m "Update gh-pages"
           git push origin gh-pages --force
 
-
   deploy:
     needs: build
 
