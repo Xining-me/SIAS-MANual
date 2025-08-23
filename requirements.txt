@@ -1,3 +1,2 @@
-mkdocs>=1.5.0
-mkdocs-material>=9.0.0  # Material 主题核心
-mkdocs-privacy>=0.2.0   # 配置中的 privacy 插件
+mkdocs-material
+# pymdown-extensions
